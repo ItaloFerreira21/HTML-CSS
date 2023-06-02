@@ -9,8 +9,17 @@
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+
+        caption {
+            font-size: 1,5em;
+            font-family: Arial, Helvetica, sans-serif;
+            color: gray;
+
+        }
         table{
             width: 500px;
+            border-collapse: collapse;
+            position: relative;
 
         }
         td, th {
@@ -24,18 +33,28 @@
         td.num {
             text-align: right;
         }
+        thead tr th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+
+        tbody tr:nth-child(2n) {
+            background-color: rgba(128, 128, 128, 0.66);
+        }
 
 
     </style>
 </head>
 <body>
     <table>
+        <caption>População das unidades federativas</caption>
         <thead>
             <tr>
-                <th>estado</th>
-                <th>População</th>
-                
-
+                <th scope="col">estado</th>
+                <th scope="col">População</th>
+               
             </tr>
         </thead>
 
@@ -152,11 +171,12 @@
         </tbody>
 
         <tfoot>
-            <th>Total de Habitantes</th>
+            <th scope="row">Total de Habitantes</th>
             <td class="num">210 147 125</td>
         </tfoot>
-
-
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex laudantium nulla velit commodi amet sapiente dolorem vero optio facilis deleniti cupiditate laborum est, tenetur nam minima voluptatibus id ullam.</p>
 </body>
 </html>
