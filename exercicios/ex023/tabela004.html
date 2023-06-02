@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela de exercício</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+        table {
+            border-collapse: collapse;
+
+        }
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            filmes favoritos
+        </caption>
+        <thead>
+            <tr>
+                <th>Grupos</th>
+                <th>Nome</th>
+                <th colspan="3" scope="colgroup">filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3" scope="rowgroup">MULHERES</th>
+                <td>Ana Maria</td>
+                <td>alien</td>
+                <td>naruto</td>
+                <td>barbie</td>
+            </tr>
+            <tr>
+                <td>Beatrix</td>
+                <td>x-mam</td>
+                <td>hulk</td>
+                <td>galinha pintadinha</td>
+            </tr>
+            <tr>
+                <td>Cláudia</td>
+                <td>Simpsons</td>
+                <td>Mulher maravilha</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">HOMENS</th>
+                <td>Bruno</td>
+                <td>dbz</td>
+                <td>Homem de ferro</td>
+                <td>intocáveis</td>
+            </tr>
+            <tr>
+                <td>Daniel</td>
+                <td>Oldboy</td>
+                <td>Thor</td>
+                <td>Dangal</td>
+            </tr>
+            <tr>
+                <td>Fabiano</td>
+                <td>Capitão america</td>
+                <td>Toy story</td>
+                <td>Bay blayd</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
