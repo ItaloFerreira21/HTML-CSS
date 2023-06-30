@@ -44,9 +44,9 @@ menu a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: (84, 84, 241, 0.911);
+    background-color: blue;
     color: white;
-    border-top: 2px solid blue;
+    border-top: 1px solid #4F9EE3;
 
 
 }
@@ -57,7 +57,7 @@ menu > ul > li a:hover {
 
 main {
     width: 90vw;
-    background-color: white;
+    background-color:#287cc5b6;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
